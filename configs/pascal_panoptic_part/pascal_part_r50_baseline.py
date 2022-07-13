@@ -125,6 +125,4 @@ model = dict(
         ]),
 )
 
-
-load_from = "./pretrain/knet_r50_city.pth"
 evaluation = dict(metric=['part'])

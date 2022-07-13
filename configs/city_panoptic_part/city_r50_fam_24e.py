@@ -4,8 +4,6 @@ _base_ = [
     './baseline_r50_sync_bn_full_crop_8e.py',
 ]
 
-load_from = "/home/lxt/pretrained_models/knet/knet_r50_city.pth"
-
 model = dict(
     rpn_head=dict(
         localization_fam=dict(

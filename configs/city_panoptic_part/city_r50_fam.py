@@ -4,7 +4,6 @@ _base_ = [
     './baseline_r50.py',
 ]
 
-load_from = "/home/lxt/pretrained_models/knet/knet_r50_city.pth"
 
 model = dict(
     rpn_head=dict(
