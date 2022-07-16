@@ -1,5 +1,17 @@
 # PanopticPartFormer ECCV-2022
 
+[Xiangtai Li](https://lxtgh.github.io/),
+Shilin Xu,
+[Yibo Yang](https://scholar.google.com/citations?user=DxXXnCcAAAAJ&hl=zh-CN), 
+[Guangliang Cheng](https://scholar.google.com/citations?user=FToOC-wAAAAJ),
+[Yunhai Tong](https://eecs.pku.edu.cn/info/1475/9689.htm),
+[Dacheng Tao](http://scholar.google.com/citations?user=RwlJNLcAAAAJ&hl=zh-CN).
+
+Source Code and model of our eccv-2022. 
+*Our re-implementation achieve slightly better results than origin submitted paper.*
+
+
+
 ## Introduction
 
 ![Figure](./figs/ppformer_teaser.png)
