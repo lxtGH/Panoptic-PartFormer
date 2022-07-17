@@ -8,7 +8,7 @@ Shilin Xu,
 [Dacheng Tao](http://scholar.google.com/citations?user=RwlJNLcAAAAJ&hl=zh-CN).
 
 Source Code and model of our eccv-2022. 
-*Our re-implementation achieve slightly better results than origin submitted paper.*
+*Our re-implementation achieve slightly better results than original submitted paper.*
 
 
 
@@ -68,6 +68,11 @@ data/
 ### Pretrained Models:
 
 #### Cityscapes Pretrained Model
+
+Note that The cityscapes model results can be improved via large crop finetuning 
+see the config city_r50_fam_ft.py.
+
+
 R-50: [link](https://1drv.ms/u/s!Ai4mxaXd6lVBfdSc09Z-Wkkkp8E?e=RKBA4f)
 
 Swin-base: [link](https://1drv.ms/u/s!Ai4mxaXd6lVBfwlSs4KjN5go9zA?e=gIVT2b)
