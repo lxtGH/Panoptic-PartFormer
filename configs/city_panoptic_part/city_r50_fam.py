@@ -4,6 +4,8 @@ _base_ = [
     './baseline_r50.py',
 ]
 
+# ckpt from cpp_trained model to get better results.
+load_form =""
 
 model = dict(
     rpn_head=dict(

@@ -97,4 +97,4 @@ lr_config = dict(
     step=[7])
 runner = dict(
     type='EpochBasedRunner', max_epochs=8)
-checkpoint_config = dict(interval=4)
+checkpoint_config = dict(interval=1)

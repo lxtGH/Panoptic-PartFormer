@@ -1,8 +1,11 @@
 num_stages = 3
 conv_kernel_size = 1
 _base_ = [
-    './baseline_r50_sync_bn_full_crop_8e.py',
+    './baseline_r50.py',
 ]
+
+# path to cpp_dataset pretrained
+load_from = ""
 
 model = dict(
     rpn_head=dict(
@@ -65,7 +68,7 @@ train_pipeline = [
     dict(type='LoadImageFromFile'),
     dict(type='LoadPartAnnotations', with_bbox=True, with_mask=True, with_seg=True, with_part=True),
     dict(
-        type='PartResize', img_scale=[(512, 1024), (2048, 4096)], multiscale_mode='range', keep_ratio=True),
+        type='PartResize', img_scale=[(1024, 2048), (2048, 4096)], multiscale_mode='range', keep_ratio=True),
     dict(type='PartRandomCrop', crop_size=(1024, 2048)),
     dict(type='PartRandomFlip', flip_ratio=0.5),
     dict(type='Normalize', **img_norm_cfg),
@@ -103,10 +106,16 @@ data = dict(
             pipeline=train_pipeline)),
 )
 
+optimizer = dict(
+    type='AdamW',
+    lr=0.00001,
+    weight_decay=0.05,
+    paramwise_cfg=dict(custom_keys={'backbone': dict(lr_mult=0.25)}))
+
 lr_config = dict(
     policy='step',
     warmup='linear',
     warmup_iters=1000,
     warmup_ratio=0.001,
-    step=[16, 22])
-runner = dict(type='EpochBasedRunner', max_epochs=24)
+    step=[1,])
+runner = dict(type='EpochBasedRunner', max_epochs=2)

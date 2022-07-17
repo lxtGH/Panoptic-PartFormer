@@ -4,6 +4,9 @@ _base_ = [
     './baseline_r50.py',
 ]
 
+# path to cpp_dataset pretrained
+load_from = ""
+
 model = dict(
     rpn_head=dict(
         localization_fam=dict(

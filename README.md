@@ -56,43 +56,49 @@ data/
 ### Pretrained Models:
 
 #### Cityscapes Pretrained Model
-R-50: [link]()
+R-50: [link](https://1drv.ms/u/s!Ai4mxaXd6lVBfdSc09Z-Wkkkp8E?e=RKBA4f)
 
-Swin-base: [link]()
+Swin-base: [link](https://1drv.ms/u/s!Ai4mxaXd6lVBfwlSs4KjN5go9zA?e=gIVT2b)
 
 #### Pascal Context Pretrained Model on COCO
 
-R-50: [link]()
+R-50: [link](https://1drv.ms/u/s!Ai4mxaXd6lVBfG0R8Nj2TcYry7w?e=grw4Ui)
 
-R-101: [link]()
-
-Swin-base: [link]()
+Swin-base: [link](https://1drv.ms/u/s!Ai4mxaXd6lVBfpWmnRmcl7lAB0k?e=2acus0)
 
 
 ### Trained Models
 
 ### CPP
 
-Swin-base [link]()
+R-50 [link](https://1drv.ms/u/s!Ai4mxaXd6lVBgQIEinLVprQyAf0J?e=0ulzUr), PartPQ: 57.5
+
+Swin-base [link](https://1drv.ms/u/s!Ai4mxaXd6lVBdNL9EzFbpUc5N6I?e=mmxa5Z) PartPQ: 61.9
 
 ### PPP
 
-Swin-base [link]()
+R-50 [link](https://1drv.ms/u/s!Ai4mxaXd6lVBgQAS47KqSrrMrXAV?e=VoS1Ge) PartPQ: 38.1
+
+R-101 [link](https://1drv.ms/u/s!Ai4mxaXd6lVBgQMjRczqr5xgLxZ9?e=x3ZvE2) PartPQ: 40.2
+
+Swin-base [link](https://1drv.ms/u/s!Ai4mxaXd6lVBgQHfYk6BNkDIU-Qh?e=4LNnVq) PartPQ: 47.8 
 
 
 ### Training and testing
-for single machine with multi gpus. 
+For single machine with multi gpus. 
 To reproduce the performance.
 Make sure you have loaded the ckpt correctly. 
 
 ```bash
 # train
 sh ./tools/dist_train.sh $CONFIG $NUM_GPU
-
 # test
 sh ./tools/dist_test.sh $CONFIG $CHECKPOINT --eval panoptic part
-
 ```
+
+Note for ppp dataset training, better to add --no-validate flag since the long evaluation period 
+and more cpu/memory cost. And then eval the model in an offline manner. 
+
 for multi machines, we use *slurm*
 
 ```bash
