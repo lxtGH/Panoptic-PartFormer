@@ -7,7 +7,7 @@ Shilin Xu,
 [Yunhai Tong](https://eecs.pku.edu.cn/info/1475/9689.htm),
 [Dacheng Tao](http://scholar.google.com/citations?user=RwlJNLcAAAAJ&hl=zh-CN).
 
-Source Code and model of our eccv-2022. 
+Source Code and model of our ECCV-2022 paper. 
 *Our re-implementation achieve slightly better results than original submitted paper.*
 
 
