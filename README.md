@@ -15,6 +15,7 @@ Source Code and model of our eccv-2022.
 ## Introduction
 
 ![Figure](./figs/ppformer_teaser.png)
+
 Panoptic Part Segmentation (PPS) aims to unify panoptic
 segmentation and part segmentation into one task. Previous work mainly
 utilizes separated approaches to handle thing, stuff, and part predictions
