@@ -427,7 +427,7 @@ class CityscapesPanopticPartDataset(CocoDataset):
                 the prefix of output txt/png files. The output files would be
                 png images under folder "a/b/prefix/xxx/" and the file name of
                 images would be written into a txt file
-                "a/b/prefix/xxx_pred.txt", where "xxx" is the video name of
+                "a/b/prefix/xxx_pred.txt", where "xxx" is the video_poster name of
                 cityscapes. If not specified, a temp file will be created.
                 Default: None.
             classwise (bool): Whether to evaluating the AP for each class.
