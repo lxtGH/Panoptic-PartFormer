@@ -1,4 +1,4 @@
-# PanopticPartFormer ECCV-2022 [Introduction Video](https://github.com/lxtGH/Panoptic-PartFormer/blob/main/video_poster/5523.mp4), [Poster](https://github.com/lxtGH/Panoptic-PartFormer/blob/main/video_poster/ECCV22_poster_5523.pdf)
+# PanopticPartFormer ECCV-2022 [Introduction Video](https://github.com/lxtGH/Panoptic-PartFormer/raw/main/video_poster/5523.mp4), [Poster](https://github.com/lxtGH/Panoptic-PartFormer/raw/main/video_poster/ECCV22_poster_5523.pdf)
 
 [Xiangtai Li](https://lxtgh.github.io/),
 Shilin Xu,
