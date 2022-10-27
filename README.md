@@ -50,6 +50,8 @@ The data structure looks like below:
 
 For Cityscapes Panoptic Part (CPP) and PascalContext Panoptic Part (PPP) dataset:
 
+The Extra Anotations for PPP dataset can be downloaded [here](https://drive.google.com/drive/folders/1dXi-K1L18GKwQedfuR9PSPU5mNCFsTBb?usp=sharing).
+
 ```
 data/
 ├── VOCdevkit # pascal context part dataset 
