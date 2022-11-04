@@ -166,3 +166,6 @@ If you find this repo is useful for your research, Please consider citing our pa
   year={2022}
 }
 ```
+### License
+
+MIT license 
