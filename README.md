@@ -1,4 +1,7 @@
-# PanopticPartFormer ECCV-2022 [Introduction Video](https://github.com/lxtGH/Panoptic-PartFormer/raw/main/video_poster/5523.mp4), [Poster](https://github.com/lxtGH/Panoptic-PartFormer/raw/main/video_poster/ECCV22_poster_5523.pdf)
+# Panoptic-PartFormer ECCV-2022 [[Introduction Video](https://github.com/lxtGH/Panoptic-PartFormer/raw/main/video_poster/5523.mp4)], [[Poster](https://github.com/lxtGH/Panoptic-PartFormer/raw/main/video_poster/ECCV22_poster_5523.pdf)]
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/panoptic-partformer-learning-a-unified-model/part-aware-panoptic-segmentation-on)](https://paperswithcode.com/sota/part-aware-panoptic-segmentation-on?p=panoptic-partformer-learning-a-unified-model)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/panoptic-partformer-learning-a-unified-model/part-aware-panoptic-segmentation-on-pascal)](https://paperswithcode.com/sota/part-aware-panoptic-segmentation-on-pascal?p=panoptic-partformer-learning-a-unified-model)
 
 [Xiangtai Li](https://lxtgh.github.io/),
 Shilin Xu,
@@ -9,7 +12,6 @@ Shilin Xu,
 
 Source Code and model of our ECCV-2022 paper. 
 *Our re-implementation achieve slightly better results than original submitted paper.*
-
 
 
 ## Introduction
