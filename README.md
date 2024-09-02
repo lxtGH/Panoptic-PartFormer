@@ -4,7 +4,7 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/panoptic-partformer-learning-a-unified-model/part-aware-panoptic-segmentation-on-pascal)](https://paperswithcode.com/sota/part-aware-panoptic-segmentation-on-pascal?p=panoptic-partformer-learning-a-unified-model)
 
 [Xiangtai Li](https://lxtgh.github.io/),
-Shilin Xu,
+[Shilin Xu](https://xushilin1.github.io/),
 [Yibo Yang](https://scholar.google.com/citations?user=DxXXnCcAAAAJ&hl=zh-CN), 
 [Guangliang Cheng](https://scholar.google.com/citations?user=FToOC-wAAAAJ),
 [Yunhai Tong](https://eecs.pku.edu.cn/info/1475/9689.htm),
@@ -12,6 +12,13 @@ Shilin Xu,
 
 Source Code and model of our ECCV-2022 paper. 
 *Our re-implementation achieved slightly better results than the original submitted paper.*
+
+
+## News
+
+🔥🔥 Our extension work, PanopticPartFormer++: A Unified and Decoupled View for Panoptic Part Segmentation, is finally accepted by T-PAMI, after one half years review. It is stronger baseline for part-aware panoptic segmentation.
+
+
 
 ## Notation
 
